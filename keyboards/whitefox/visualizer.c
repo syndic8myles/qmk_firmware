@@ -40,7 +40,7 @@ void update_user_visualizer_state(visualizer_state_t *state, visualizer_keyboard
 
     if (initial_update) {
         initial_update = false;
-        start_keyframe_animation(&led_test_animation);
+        // start_keyframe_animation(&led_test_animation);
     }
 }
 
